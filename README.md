@@ -1,5 +1,5 @@
 # Trabalho Jogo em C++ #  
-## O que cada um vai fazer: **
+## O que cada um vai fazer: ##
 
 **Biel**:
 
