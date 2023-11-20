@@ -1,12 +1,13 @@
 # Trabalho Jogo em C++ #  
 ## O que cada um vai fazer: ##
 
-**Biel**:
+**Biel**: Jogo
 
-**Thiago**:
+**Thiago**: Jogo
 
-**Machado**:
+**Machado**: Responsável pelo ranking em arquivo
 
-**Ítalo**:
+**Ítalo**: Menu
 
-**Antônio**:
+**Antônio**: Banco de dados das palavras
+
