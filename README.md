@@ -3,7 +3,7 @@
 
 **Jogo**: feito ✔ <br>
 **Menu**: feito ✔ <br>
-**Ranking**: **X**
-**Banco de Palavras**: feito ✔
+**Ranking**: **X** <br>
+**Banco de Palavras**: feito ✔ <br>
 **Opção PvP**: feito ✔
 
