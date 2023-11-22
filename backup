@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <time.h>
+//#include <locale.h>
 
 #define MAX_PALAVRA 20
 #define MAX_ERROS 27
@@ -154,6 +155,7 @@ int jogo() {
 }
 
 int main() {
+//	setlocale(0, "portuguese");
     start();
     int resultado = jogo();
     mostrarResultado(resultado);
