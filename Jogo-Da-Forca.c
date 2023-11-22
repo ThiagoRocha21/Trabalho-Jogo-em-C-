@@ -40,7 +40,7 @@ void escolherPalavraManualmente() {
 }
 
 void creditos() {
-    printf("Feito por: Biel, Thiago, João Victor, Italo e Antônio.\n");
+    printf("Feito por: Biel, Thiago, JoÃ£o Victor, Italo e AntÃ´nio.\n");
     printf("Pressione Enter para voltar ao menu.");
 	    limparBuffer();
 	    getchar();
@@ -69,10 +69,10 @@ void inicializarForca() {
 void mostrarResultado(int resultado) {
     printf("\n");
     if (resultado == 0) {
-        printf("Você perdeu. A palavra era %s\n", palavra);
+        printf("VocÃª perdeu. A palavra era %s\n", palavra);
         exit(0);
     } else {
-        printf("Parabéns, você acertou a palavra %s\n", palavra);
+        printf("ParabÃ©ns, vocÃª acertou a palavra %s\n", palavra);
         exit(0);
     }
 }
@@ -88,7 +88,7 @@ int jogo() {
     }
 
     while (chances > 0) {
-        system("cls"); // Substitua por uma abordagem mais portátil, se necessário
+        system("cls"); // Substitua por uma abordagem mais portÃ¡til, se necessÃ¡rio
         exibirForca();
         exibirErros();
 
@@ -138,10 +138,10 @@ void start() {
     int escolha;
     
     // Escolhe se deseja uma palavra do banco (1) ou digitar manualmente (2)
-    printf("\nEscolha a opção:\n");
+    printf("\nEscolha a opÃ§Ã£o:\n");
     printf("1. Palavra do banco\n");
     printf("2. Digitar uma palavra\n");
-    printf("Opção: ");
+    printf("OpÃ§Ã£o: ");
     scanf("%d", &escolha);
 
     if (escolha == 1) {
@@ -149,14 +149,14 @@ void start() {
     } else if (escolha == 2) {
         escolherPalavraManualmente();
     } else {
-        printf("Opção inválida. Escolhendo palavra do banco.\n");
+        printf("OpÃ§Ã£o invÃ¡lida. Escolhendo palavra do banco.\n");
         escolherPalavraAleatoria();
     }
     
-    // Inicializações e configurações
+    // InicializaÃ§Ãµes e configuraÃ§Ãµes
     inicializarForca();
 
-    // Chama a função de jogo
+    // Chama a funÃ§Ã£o de jogo
     int resultado = jogo();
     mostrarResultado(resultado);
 
@@ -170,9 +170,9 @@ void menu() {
         system("cls");
         printf("          JOGO DA FORCA          ");
         printf("\n          1 - JOGAR           ");
-        printf("\n          2 - CRÉDITOS		");
+        printf("\n          2 - CRÃ‰DITOS		");
         printf("\n          3 - SAIR            ");
-        printf("\n			Digite o número de uma opção: ");
+        printf("\n			Digite o nÃºmero de uma opÃ§Ã£o: ");
         fflush(stdin);
         scanf(" %c", &option);
 
@@ -190,7 +190,7 @@ void menu() {
                 break;
 
             default:
-                printf("Opção inválida. Encerrando programa.\n");
+                printf("OpÃ§Ã£o invÃ¡lida. Encerrando programa.\n");
                 exit(0);
 //                escolherPalavraAleatoria(); 
                 break;
