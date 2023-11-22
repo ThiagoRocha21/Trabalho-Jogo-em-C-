@@ -8,7 +8,7 @@
 #define MAX_ERROS 27
 #define MAX_PALAVRAS_BANCO 5
 
-char bancoPalavras[MAX_PALAVRAS_BANCO][MAX_PALAVRA] = {"JVGOSTOSO", "KUNK", "PATRICIA", "BIELGAY", "WALLACE"};
+char bancoPalavras[MAX_PALAVRAS_BANCO][MAX_PALAVRA] = {"LUA", "BARRIGA", "REDE", "COMPUTADOR", "ASFALTO"};
 
 char palavra[MAX_PALAVRA];
 char forca[MAX_PALAVRA];
@@ -57,7 +57,8 @@ void exibirErros() {
 }
 
 void inicializarForca() {
-    for (int i = 0; palavra[i] != 0; i++) {
+	int i;
+    for (i = 0; palavra[i] != 0; i++) {
         char c = palavra[i];
         forca[i] = ehLetra(c) ? '_' : c;
     }
@@ -77,7 +78,8 @@ int jogo() {
     int chances = 5;
 
     int letras = 0;
-    for (int i = 0; palavra[i] != 0; i++) {
+    int i;
+    for (i = 0; palavra[i] != 0; i++) {
         if (ehLetra(palavra[i])) letras++;
     }
 
@@ -93,7 +95,7 @@ int jogo() {
         if (!ehLetra(tentativa)) continue;
 
         int jaTentou = 0;
-        for (int i = 0; erros[i] != 0; i++) {
+        for (i = 0; erros[i] != 0; i++) {
             if (erros[i] == maiuscula(tentativa)) {
                 jaTentou = 1;
                 break;
@@ -104,7 +106,7 @@ int jogo() {
 
         int ganhou = 1;
         int achou = 0;
-        for (int i = 0; palavra[i] != 0; i++) {
+        for (i = 0; palavra[i] != 0; i++) {
             if (!ehLetra(palavra[i])) continue;
             if (forca[i] == '_') {
                 if (maiuscula(palavra[i]) == maiuscula(tentativa)) {
