@@ -1,13 +1,9 @@
 # Trabalho Jogo em C++ #  
 ## O que cada um vai fazer: ##
 
-**Biel**: Jogo
-
-**Thiago**: Jogo
-
-**Machado**: Responsável pelo ranking em arquivo
-
-**Ítalo**: Menu
-
-**Antônio**: Banco de dados das palavras
+**Jogo**: feito ✔ <br>
+**Menu**: feito ✔ <br>
+**Ranking**: **X** <br>
+**Banco de Palavras**: feito ✔ <br>
+**Opção PvP**: feito ✔
 
