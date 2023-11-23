@@ -1,9 +1,7 @@
 # Trabalho Jogo em C++ #  
-## O que cada um vai fazer: ##
+## Jogo da forca ##
 
-**Jogo**: feito ✔ <br>
-**Menu**: feito ✔ <br>
-**Ranking**: **X** <br>
-**Banco de Palavras**: feito ✔ <br>
-**Opção PvP**: feito ✔
+**Participantes**: Antônio Pedro, Biel Aguiar, Ítalo Belem, Jõao Victor Machado e Thiago Rocha.
+
+Link do vídeo apresentando o (jogo)[https://youtu.be/fY4PkqADie8]
 
