@@ -88,7 +88,7 @@ int jogo() {
     }
 
     while (chances > 0) {
-        system("cls"); // Substitua por uma abordagem mais portátil, se necessário
+        system("cls"); 
         exibirForca();
         exibirErros();
 
